@@ -190,7 +190,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-MIT License - see [LICENSE](https://github.com/aazis7/utils.git) file for details.
+MIT License - see [LICENSE](https://github.com/aazis7/utils/blob/main/LICENSE) file for details.
 
 ---
 
