@@ -1,0 +1,28 @@
+# Source files
+src/
+tsconfig.json
+tsup.config.ts
+
+# Development files
+.git/
+.gitignore
+node_modules/
+package-lock.json
+
+# Build artifacts
+*.map
+*.tsbuildinfo
+
+# Documentation
+README.md
+docs/
+
+# Testing
+test/
+tests/
+*.test.*
+*.spec.*
+
+# Misc
+.DS_Store
+.env*

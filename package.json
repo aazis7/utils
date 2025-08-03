@@ -1,0 +1,59 @@
+{
+  "name": "@aazis7/utils",
+  "version": "0.1.9",
+  "homepage": "https://github.com/aazis7/utils.git",
+  "author": "aazis7",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./string": {
+      "require": "./dist/string/index.js",
+      "import": "./dist/string/index.mjs",
+      "types": "./dist/string/index.d.ts"
+    },
+    "./number": {
+      "require": "./dist/number/index.js",
+      "import": "./dist/number/index.mjs",
+      "types": "./dist/number/index.d.ts"
+    },
+    "./object": {
+      "require": "./dist/object/index.js",
+      "import": "./dist/object/index.mjs",
+      "types": "./dist/object/index.d.ts"
+    },
+    "./time": {
+      "require": "./dist/time/index.js",
+      "import": "./dist/time/index.mjs",
+      "types": "./dist/time/index.d.ts"
+    },
+    "./validate": {
+      "require": "./dist/validate/index.js",
+      "import": "./dist/validate/index.mjs",
+      "types": "./dist/validate/index.d.ts"
+    }
+  },
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.cjs",
+    "dist/**/*.d.ts",
+    "!dist/**/*.map"
+  ],
+  "scripts": {
+    "test": "vitest",
+    "build": "tsup",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
