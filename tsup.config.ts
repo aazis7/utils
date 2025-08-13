@@ -1,12 +1,12 @@
-import { defineConfig, type Options } from 'tsup'
+import { defineConfig } from 'tsup'
 
-export default defineConfig((options: Options) => ({
+export default defineConfig({
   entry: [
     'src/index.ts',
     'src/string/index.ts',
     'src/number/index.ts',
-    'src/time/index.ts',
     'src/object/index.ts',
+    'src/time/index.ts',
     'src/validate/index.ts',
   ],
   outDir: 'dist',
@@ -14,9 +14,14 @@ export default defineConfig((options: Options) => ({
   format: ['cjs', 'esm'],
   dts: true,
   splitting: false,
+  bundle: false,
+  minify: 'terser',
+  sourcemap: false,
   treeshake: true,
   target: 'es2022',
-  bundle: false,
-  minify: true,
-  ...options,
-}))
+  terserOptions: {
+    compress: { drop_console: true, drop_debugger: true },
+    mangle: true,
+    format: { comments: false },
+  },
+})
