@@ -1,2 +1,2 @@
-export { isEmail } from './is-email'
-export { isUUID } from './is-uuid'
+export * from './is-email'
+export * from './is-uuid'

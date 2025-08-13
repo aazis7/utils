@@ -1,2 +1,2 @@
-export { formatDate } from './format-date'
-export { sleep } from './sleep'
+export * from './format-date'
+export * from './sleep'
