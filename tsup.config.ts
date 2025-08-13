@@ -14,7 +14,7 @@ export default defineConfig({
   format: ['cjs', 'esm'],
   dts: true,
   splitting: false,
-  bundle: false,
+  bundle: true,
   minify: 'terser',
   sourcemap: false,
   treeshake: true,
