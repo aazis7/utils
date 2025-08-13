@@ -8,6 +8,7 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "sideEffects": false,
+  "type": "module",
   "exports": {
     ".": {
       "require": "./dist/index.js",
@@ -52,8 +53,13 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "eslint": "^9.33.0",
+    "globals": "^16.3.0",
+    "jiti": "^2.5.1",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3",
+    "typescript-eslint": "^8.39.1",
     "vitest": "^3.2.4"
   },
   "engines": {
