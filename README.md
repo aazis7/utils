@@ -188,6 +188,14 @@ All utilities are isomorphic and work in both browser and Node.js environments w
 
 Contributions are welcome! Please Read [CONTRIBUTING.md](https://github.com/aazis7/utils/blob/main/CONTRIBUTING.md) for details. Please feel free to submit a Pull Request.
 
+## Support
+
+Reach out to the maintainer at one of the following places:
+
+- [GitHub discussions](https://github.com/aazis7/utils/discussions)
+- The email which is located [in GitHub profile](https://github.com/aazis7)
+
+
 ## License
 
 MIT License - see [LICENSE](https://github.com/aazis7/utils/blob/main/LICENSE) file for details.
