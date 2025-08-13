@@ -1,2 +1,2 @@
-export { clamp } from "./clamp";
-export { randomInt } from "./random-int";
+export { clamp } from './clamp'
+export { randomInt } from './random-int'

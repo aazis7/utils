@@ -1,2 +1,2 @@
-export { groupBy } from "./group-by"
-export { deepClone } from "./deep-clone"
+export { deepClone } from './deep-clone'
+export { groupBy } from './group-by'

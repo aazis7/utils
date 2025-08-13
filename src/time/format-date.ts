@@ -1,7 +1,7 @@
 export function formatDate(
   date: Date | string,
-  locale = "id-ID",
+  locale = 'id-ID',
   options?: Intl.DateTimeFormatOptions,
 ) {
-  return new Date(date).toLocaleDateString(locale, options);
+  return new Date(date).toLocaleDateString(locale, options)
 }

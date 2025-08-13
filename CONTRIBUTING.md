@@ -11,6 +11,7 @@ Thank you for your interest in contributing to @aazis7/utils! This document prov
 
 1. Fork the repository
 2. Clone your fork:
+
    ```bash
    git clone https://github.com/aazis7/utils.git
    cd utils
@@ -99,7 +100,7 @@ src/
 
 ### Example Utility Function
 
-```typescript
+````typescript
 /**
  * Calculates the sum of two numbers
  * @param a - First number
@@ -111,25 +112,25 @@ src/
  * ```
  */
 export function add(a: number, b: number): number {
-  return a + b;
+  return a + b
 }
-```
+````
 
 ### Example Test
 
 ```typescript
-import { describe, it, expect } from 'vitest';
-import { add } from '../index';
+import { describe, it, expect } from 'vitest'
+import { add } from '../index'
 
 describe('add', () => {
   it('should add two positive numbers', () => {
-    expect(add(2, 3)).toBe(5);
-  });
+    expect(add(2, 3)).toBe(5)
+  })
 
   it('should handle negative numbers', () => {
-    expect(add(-2, 3)).toBe(1);
-  });
-});
+    expect(add(-2, 3)).toBe(1)
+  })
+})
 ```
 
 ## Commit Guidelines
@@ -144,6 +145,7 @@ We follow [Conventional Commits](https://www.conventionalcommits.org/) specifica
 - `chore:` for maintenance tasks
 
 Examples:
+
 ```
 feat: add debounce utility function
 fix: handle edge case in deepClone function
@@ -154,6 +156,7 @@ test: add tests for arrayUtils module
 ## Pull Request Process
 
 1. Create a feature branch from `main`:
+
    ```bash
    git checkout -b feat/your-feature-name
    ```
