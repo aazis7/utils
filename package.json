@@ -48,9 +48,15 @@
     "!dist/**/*.map"
   ],
   "scripts": {
+    "dev": "tsup --watch",
     "test": "vitest",
     "build": "tsup",
-    "prepublishOnly": "npm run build"
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "format": "prettier -w .",
+    "clean": "rm -rf dist && echo 'Success...'",
+    "prepublishOnly": "npm run test && npm run type-check && npm run build"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
