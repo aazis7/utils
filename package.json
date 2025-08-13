@@ -41,10 +41,7 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "files": [
-    "dist/**/*.js",
-    "dist/**/*.cjs",
-    "dist/**/*.d.ts",
-    "dist/**/*.d.mts",
+    "dist",
     "!dist/**/*.map"
   ],
   "scripts": {
