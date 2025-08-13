@@ -7,50 +7,32 @@
   "sideEffects": false,
   "exports": {
     ".": {
-      "types": {
-        "import": "./dist/index.d.mts",
-        "require": "./dist/index.d.ts"
-      },
+      "types": "./dist/index.d.ts",
       "require": "./dist/index.js",
       "import": "./dist/index.mjs"
     },
     "./string": {
-      "types": {
-        "import": "./dist/string/index.d.mts",
-        "require": "./dist/string/index.d.ts"
-      },
+      "types": "./dist/string/index.d.ts",
       "require": "./dist/string/index.js",
       "import": "./dist/string/index.mjs"
     },
     "./number": {
-      "types": {
-        "import": "./dist/number/index.d.mts",
-        "require": "./dist/number/index.d.ts"
-      },
+      "types": "./dist/number/index.d.ts",
       "require": "./dist/number/index.js",
       "import": "./dist/number/index.mjs"
     },
     "./object": {
-      "types": {
-        "import": "./dist/object/index.d.mts",
-        "require": "./dist/object/index.d.ts"
-      },
+      "types": "./dist/object/index.d.ts",
       "require": "./dist/object/index.js",
       "import": "./dist/object/index.mjs"
     },
     "./time": {
-      "types": {
-        "import": "./dist/time/index.d.mts",
-        "require": "./dist/time/index.d.ts"
-      },
+      "types": "./dist/time/index.d.ts",
       "require": "./dist/time/index.js",
       "import": "./dist/time/index.mjs"
     },
     "./validate": {
-      "types": {
-        "import": "./dist/validate/index.d.mts",
-        "require": "./dist/validate/index.d.ts"
-      },
+      "types": "./dist/validate/index.d.ts",
       "require": "./dist/validate/index.js",
       "import": "./dist/validate/index.mjs"
     }
