@@ -1,6 +1,5 @@
 dist
 node_modules
 *.log
-__tests__
 coverage
 .DS_Store
