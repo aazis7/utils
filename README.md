@@ -186,7 +186,7 @@ All utilities are isomorphic and work in both browser and Node.js environments w
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please Read [CONTRIBUTING.md](https://github.com/aazis7/utils/blob/main/CONTRIBUTING.md) for details. Please feel free to submit a Pull Request.
 
 ## License
 
